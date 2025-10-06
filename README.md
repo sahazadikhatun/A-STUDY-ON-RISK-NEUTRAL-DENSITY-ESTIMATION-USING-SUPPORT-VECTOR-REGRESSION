@@ -18,15 +18,14 @@ Organize your repository to make it clean and professional:
 risk-neutral-density-svr/
 │
 ├── data/                   # Original and processed datasets
-│   ├── raw/                # Raw dataset files
-│   └── processed/          # Cleaned and prepared datasets for modeling
+│   ├── csv files/                # Raw dataset files
+│                           # Cleaned and prepared datasets for modeling
 │
-├── notebooks/              # Optional Jupyter notebooks for EDA or experimentation
+├── Project Report/              # Optional Jupyter notebooks for EDA or experimentation
+│                                # Python scripts
+│                               # SVR implementation and RND estimation
 │
-├── src/                    # Python scripts
-│   └── svr_rnd.py          # SVR implementation and RND estimation
-│
-├── results/                # Plots, charts, and outputs
+├── Project Report/                # Plots, charts, and outputs
 │
 ├── README.md               # Project overview and instructions
 └── requirements.txt        # Python dependencies
@@ -78,14 +77,3 @@ Experiment with other kernel functions in SVR.
 Compare SVR results with other ML techniques like Random Forest or Neural Networks.
 Use RND estimates for derivative pricing or risk management.
 
-## Dependencies
-
-Include all Python packages needed to run your code:
-``` plaintext
-numpy
-pandas
-matplotlib
-scipy
-sklearn  # Only if used for comparison; core SVR is implemented manually
-
-```
