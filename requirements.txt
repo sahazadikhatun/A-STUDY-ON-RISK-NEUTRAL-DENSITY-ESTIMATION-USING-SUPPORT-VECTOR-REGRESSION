@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+scipy
+sklearn  # Only if used for comparison; core SVR is implemented manually
