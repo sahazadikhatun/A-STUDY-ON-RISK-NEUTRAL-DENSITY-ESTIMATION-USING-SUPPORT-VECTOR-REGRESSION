@@ -21,7 +21,7 @@ risk-neutral-density-svr/
 │   ├── csv files/                # Raw dataset files
 │                           # Cleaned and prepared datasets for modeling
 │
-├── Project Report/              # Optional Jupyter notebooks for EDA or experimentation
+├── Project-Code/              # Optional Jupyter notebooks for EDA or experimentation
 │                                # Python scripts
 │                               # SVR implementation and RND estimation
 │
